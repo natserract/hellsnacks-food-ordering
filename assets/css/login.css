@@ -1,0 +1,95 @@
+/*
+    Login StyleSheet 
+*/
+
+div.login {
+    background: url("../img/flames.png") no-repeat top;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+label {
+    color: #000;
+}
+
+.log-form {
+    width: 320px;
+    padding: 2% 0 0;
+    margin: auto;
+}
+
+#loginform input {
+    background: transparent;
+    border-color: #000;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    font-size: 16px;
+}
+ 
+#loginform input:focus{
+    /* background-color: rgba(194, 194, 194, 0.1) */
+    background-color: rgba(204,204,204,.2)
+}
+
+#loginform input::-webkit-input-placeholder {
+    color: rgb(53, 53, 53);
+}
+
+input#user_login::-moz-input-placeholder,
+input#user_pass::-moz-input-placeholder {
+    color: #dedede;
+}
+
+#addon-usname {
+    background-color: transparent;
+    color: #fff;
+}
+
+button#btn-log {
+    width: 85%;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    outline: 0;
+    box-shadow: none;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    border-color: transparent;
+    background-color: #000;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+button#btn-log:hover {
+    background-color: #111 !important;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+}
+
+p#information {
+    margin: 18px 0;
+    color: #3c3c3c
+}
+
+p#information a#signUp-link {
+    color: #3c3c3c;
+    text-decoration: underline;
+}
+
+p#information a#signUp-link:hover {
+    color: #000;
+}
+
+.errorClass {
+    color: red;
+}
+
+.validClass {
+    color: green;
+}

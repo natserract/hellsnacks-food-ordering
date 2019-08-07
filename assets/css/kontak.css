@@ -1,0 +1,90 @@
+body {
+    background: url("../img/flames.png") no-repeat top;
+    background-attachment: fixed;
+}
+
+.head_page_title h2:after {
+    display: block;
+    content: "";
+    background: #000;
+    height: 2px;
+    width: 100px;
+    margin: 10px 0
+}
+
+div.id_grid:last-child {
+    border-left: solid 2px #000;
+}
+
+#contact_form input {
+    background: transparent;
+    border-color: #000;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    font-size: 15px;
+}
+#contact_form input:focus, #contact_form textarea:focus{
+    background-color: rgba(204,204,204,.2)
+}
+#contact_form input::-webkit-input-placeholder,
+#contact_form textarea::-webkit-input-placeholder {
+    color: rgb(53, 53, 53);
+}
+
+#contact_form textarea {
+    background: transparent;
+    border-color: #000;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: none;
+    outline: 0;
+    font-size: 15px;
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 100%;
+}
+
+button#button_submit {
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+}
+
+button#button_submit:hover {
+    background: #111;
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+}
+
+a#infoMail {
+    color: #000;
+    text-decoration: none;
+}
+
+li.li-contact {
+    border-bottom: dashed 2px #111;
+    margin: 10px 0;
+}
+
+div.contact_detail_article {
+    padding: 30px 0 100px 0;
+}
+
+.grid-title:after {
+    display: block;
+    content: '';
+    background: #111;
+    height: 2px;
+    width: 50px;
+    margin: 5px 0;
+}

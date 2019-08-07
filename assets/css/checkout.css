@@ -1,0 +1,109 @@
+section.checkout-page {
+    color: #000;
+    padding: 10px 0 90px 0;
+}
+
+section.checkout-page h3 {
+    line-height: 2;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+#order-detail .shop_table,
+#order-detail .shop_table th,
+#order-detail .shop_table td {
+    padding: 12px;
+    border: 1px solid #e5e5e5;
+}
+
+#payment {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    margin: 20px 0;
+    width: 95%;
+    float: right;
+    margin-right: 0;
+    clear: right;
+}
+
+#payment .payment-methods {
+    margin: 0!important;
+    padding: 0!important;
+    border-bottom: 1px dotted rgba(0, 0, 0, .1);
+}
+
+#payment .payment-methods li {
+    list-style: none !important;
+    padding: 1.387em!important;
+    margin-left: 0
+}
+
+#payment .place-order {
+    padding: 1.387em 0;
+    margin-bottom: 0;
+    float: none;
+    width: 100%
+}
+
+#payment .place-order .button {
+    background: rgba(17, 17, 17, 1);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: none;
+    outline: 0;
+    font-size: 12px;
+    padding: 10px 37px;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    transition: .2s all ease-out;
+    -webkit-transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    -o-transition: .2s all ease-out;
+}
+
+#payment .place-order .button:hover {
+    background: rgba(17, 17, 17, .8);
+}
+
+.checkout-content .checkout-form label {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#checkout_form input,
+#checkout_form select {
+    letter-spacing: 2px;
+    font-size: 12px;
+    height: 33px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 6px 12px;
+    outline: 0;
+    box-shadow: none;
+    color: #111;
+}
+
+#checkout_form textarea {
+    letter-spacing: 2px;
+    font-size: 12px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+    padding: 6px 12px;
+    outline: 0;
+    box-shadow: none;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 75px;
+    max-height: 75px
+}
+#checkout_form input:focus,
+#checkout_form select:focus,
+#checkout_form textarea:focus{
+    /* border-color: #000; */
+    background-color: rgba(204,204,204,.2)
+}

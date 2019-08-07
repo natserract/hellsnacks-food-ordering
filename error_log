@@ -1,0 +1,3 @@
+[10-May-2019 23:57:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/k8242757/public_html/project/hellsnacks/configs/config.php on line 10
+[10-May-2019 23:58:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/k8242757/public_html/project/hellsnacks/configs/config.php on line 10
+[11-May-2019 00:00:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/k8242757/public_html/project/hellsnacks/configs/config.php on line 10

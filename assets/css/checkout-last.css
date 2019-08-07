@@ -1,0 +1,67 @@
+section.checkout-suc{
+    background: url("../img/flames.png") no-repeat top;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.detail-order th, .detail-order td{
+    text-align: center;
+}
+a.product-name{
+    color: #000;
+    text-decoration: none;
+}
+a.product-name:hover{
+    color: rgb(24, 24, 24);
+}
+.to-shopping{
+    border:0;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+    padding: 7px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition:  .3s all ease;
+    -webkit-transition:  .3s all ease;
+    -moz-transition:  .3s all ease;
+}
+.to-shopping:hover{
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    transition:  .3s all ease;
+    -webkit-transition:  .3s all ease;
+    -moz-transition:  .3s all ease;
+}
+.view-order{
+    border: 0;
+    background-color: #ec1e30;
+    color: #fff;
+    border-radius: 2px;
+    padding: 7px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition:  .3s all ease;
+    -webkit-transition:  .3s all ease;
+    -moz-transition:  .3s all ease;   
+}
+.view-order:hover{
+    background-color: #e63547;
+    color: #fff;
+    transition:  .3s all ease;
+    -webkit-transition:  .3s all ease;
+    -moz-transition:  .3s all ease;   
+}
+.table-bordered{
+    border: solid 1px #111;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+    border: solid 1px #111;
+}
+.table-detail > thead> tr > th{
+    border-bottom: solid 1px #111;
+}

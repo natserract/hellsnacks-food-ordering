@@ -1,0 +1,195 @@
+section#cart_content {
+    color: #000;
+    padding: 30px 0 90px 0;
+}
+
+.table-condensed>thead>tr>th {
+    padding: 12px;
+}
+
+table {
+    width: 100%;
+    margin: 0 0 1.5em;
+}
+
+td.product-remove a.remove {
+    display: block;
+    width: 1em;
+    height: 1em;
+    margin: 15px auto;
+    border: 0;
+    color: rgb(249, 98, 98);
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+}
+
+td.product-remove a.remove:hover {
+    color: #ff2727;
+    transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+}
+
+.shop-table img {
+    max-width: 83px;
+}
+
+td.product-name a {
+    margin: 0 0 20px;
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+td.product-quantity input.qty {
+    float: none;
+    max-width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    width: 100%;
+    height: 33px;
+    padding: 0.618em;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    letter-spacing: 2px;
+}
+
+table.shop-table td.actions {
+    text-align: right;
+    padding: 12px;
+}
+
+table.shop-table td.actions .go-shopping {
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+table.shop-table td.actions .go-shopping a[name="to-shopping"] {
+    padding: 8px 37px;
+    border-color: transparent;
+    border-radius: 2px;
+    color: #fff;
+    background: #000;
+    box-shadow: none;
+    outline: 0;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+}
+
+table.shop-table td.actions .go-shopping a[name="to-shopping"]:hover {
+    background: rgba(17, 17, 17, .9);
+    transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+}
+
+table.shop-table td.actions a.button {
+    padding: 8px 37px;
+    border: 1px solid transparent;
+    border: #ff2727;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #ff2727;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    text-decoration: none;
+}
+
+table.shop-table td.actions a.button:hover {
+    background-color: #e11e1e;
+    transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+}
+
+.cart-collaterals .cart_totals {
+    float: right;
+    clear: right;
+    width: 40%;
+    margin: 0;
+}
+
+.cart_totals h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.cart_totals table {
+    padding: 12px;
+    border: 1px solid #e5e5e5
+}
+
+.cart_totals table td,
+.cart_totals table th {
+    padding: 12px;
+    border: 1px solid #e5e5e5
+}
+
+.bt-proceed-to-checkout {
+    margin-bottom: 1.618em;
+}
+
+.bt-proceed-to-checkout a.checkout-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 8px 37px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: #fff;
+    background: #000;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s
+}
+
+.bt-proceed-to-checkout a.checkout-button:hover {
+    background: rgba(17, 17, 17, .9);
+}
+td.product-quantity a{
+    padding: 20px;
+}
+td.product-quantity button.btn-quantity{
+    font-size: 15px;
+    background: rgba(17, 17, 17, 1);
+    color: #fff;
+    border: 0;
+    padding: 6px 8px;
+    border-radius: 2px;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+    outline: 0;
+    box-shadow: none;
+}
+td.product-quantity button.btn-quantity:hover{
+    background: rgba(17, 17, 17, .8);
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+}

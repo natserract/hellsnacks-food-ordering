@@ -1,0 +1,18 @@
+body {
+    background: url("../img/flames.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#content .head_page_title h2:after {
+    display: block;
+    background: #000;
+    height: 2px;
+    width: 400px;
+    content: "";
+    margin: 20px 0;
+}
+
+div.info_cara_belanja {
+    padding: 35px 0 90px 0;
+}

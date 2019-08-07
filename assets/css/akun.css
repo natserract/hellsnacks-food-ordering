@@ -1,0 +1,101 @@
+body {
+    background: url("../img/flames.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.account-set-sec{
+    color: #000;
+    padding: 30px 0 110px 0;
+}
+
+.page-title {
+    padding-bottom: 20px;
+}
+
+.page-title h2:after {
+    display: block;
+    background: #000;
+    width: 50px;
+    height: 2px;
+    content: "";
+    margin: 10px 0;
+}
+label[for=uname]{
+    font-size: 14px;
+}
+
+#edit_account_form input{
+    background: transparent;
+    border-color: #000;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+textarea#alamat_form{
+    background: transparent;
+    border-color: #000;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: none;
+    outline: 0;
+    font-size: 16px;
+    min-height: 90px;
+    max-height: 90px;
+    max-width: 100%
+}
+
+#edit_account_form input:focus, textarea#alamat_form:focus{
+    background-color: rgba(204,204,204,.2)
+}
+
+div.form-edit-ac{
+    width: 520px;
+    padding: 2% 0 0;
+    margin: auto;
+
+}
+button[type=submit]{
+    background: #000;
+    color: #fff;
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    width: 450px;
+    font-weight: bold;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+button[type=submit]:hover {
+    background-color: #111;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    color: #fff;
+}
+button[type=reset]{
+    background: #ff2727;
+    color: #fff;
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+button[type=reset]:hover{
+    background: #e11e1e;
+    color: #fff;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+}

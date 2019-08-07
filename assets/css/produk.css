@@ -1,0 +1,190 @@
+section.product-sec {
+    padding: 10px 0 100px 0;
+}
+
+li.cat-item6:before {
+    float: left;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    padding-right: 5px;
+    color: #666;
+    content: "\00BB";
+}
+
+.pagination li {
+    display: inline-block;
+}
+
+ul li.cat-item6 {
+    border: 0;
+}
+
+ul li.cat-item6 a {
+    color: #111;
+    text-decoration: none;
+    outline: 0;
+    transition: .2s all ease-out;
+    -webkit-transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    -o-transition: .2s all ease-out;
+}
+
+ul li.cat-item6 a:hover {
+    color: #aaa;
+    transition: .2s all ease-out;
+    -webkit-transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    -o-transition: .2s all ease-out;
+}
+
+form.hs-ordering select {
+    height: 33px;
+    padding-left: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    outline: 0;
+    box-shadow: none;
+}
+
+#product-list ul {
+    list-style: none;
+}
+
+
+/* Halaman Detail Produk  */
+
+.summary h2.product-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+p.price .amount {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.summary .product-description p {
+    text-align: justify;
+}
+
+div.quantity input.qty {
+    width: 100%;
+    padding: 3px 16px;
+    text-align: left;
+    letter-spacing: 2px;
+    height: 39px;
+    font-size: 13px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    line-height: 16px;
+}
+
+form.cart button.itemAdd {
+    background: rgba(17, 17, 17, 1);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding: 10px;
+    width: 100%;
+    outline: 0;
+    box-shadow: none;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    border: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+form.cart button.itemAdd:hover {
+    background: rgba(17, 17, 17, .8);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    color: #fff;
+}
+
+.tab-pane {
+    padding: 15px 0;
+}
+
+.tab-content {
+    padding: 20px 0;
+}
+
+.tab-content h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #000;
+    letter-spacing: 2px;
+}
+
+section.product-main-content {
+    padding: 20px 0 90px 0;
+}
+
+.tab-content .tab-pane {
+    text-align: justify;
+}
+
+
+/* Light box */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 2%;
+    cursor: default;
+}
+
+.lightbox:target {
+    outline: none;
+    display: block;
+}
+ul.product-info-head{
+    list-style: none;
+    margin: 0;
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+ul.product-info-head li {
+    padding: 5px 8px;
+}
+ul.product-info-head li:before{
+    float: left;
+    position: absolute;
+    left: 15px;
+    padding: 0;
+    color: #fff;
+    content: "\00BB";
+    background-color: #000;
+    width: 25px;
+    text-align: center;
+}

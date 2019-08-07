@@ -1,0 +1,97 @@
+body {
+    background: url("../img/flames.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.id-sign-up {
+    padding: 30px 0 110px 0;
+}
+
+div.signup-form {
+    width: 520px;
+    padding: 2% 0 0;
+    margin: auto;
+    color: #000;
+}
+
+
+#signup-form input {
+    background: transparent;
+    border-color: inherit;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    font-size: 16px;
+}
+
+#signup-form textarea {
+    background: transparent;
+    border-color: #000;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: none;
+    outline: 0;
+    font-size: 16px;
+    min-height: 90px;
+    max-height: 90px;
+    max-width: 100%
+}
+#signup-form input:focus, #signup-form textarea:focus{
+    /* border-color: #ff373c; */
+    background-color: rgba(204,204,204,.2)
+}
+#signup-form input::-webkit-input-placeholder,
+#signup-form textarea::-webkit-input-placeholder {
+    color: rgb(53, 53, 53);
+}
+
+.page-title {
+    padding-bottom: 20px;
+}
+
+.page-title h2:after {
+    display: block;
+    background: #000;
+    width: 50px;
+    height: 2px;
+    content: "";
+    margin: 10px 0;
+}
+
+button#btn_signup {
+    background: #000;
+    color: #fff;
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    height: 50px;
+    width: 450px;
+    font-weight: bold;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+button#btn_signup:hover {
+    background-color: #111;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+}
+
+p#information {
+    margin: 18px 0;
+    color: #3c3c3c
+}
+
+p#information a#login-link {
+    color: #3c3c3c;
+    text-decoration: underline;
+}
+
+p#information a#login-link:hover {
+    color: #000;
+}
