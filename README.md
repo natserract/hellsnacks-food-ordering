@@ -1,7 +1,7 @@
 
 # Hellsnacks - Food Online Shop
 
-Food online shop written in PHP
+Food online shop written in PHP & Bootstrap
 
 # Installation
 1>Install XAMPP or WAMPP.
